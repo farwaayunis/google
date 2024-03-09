@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+        <img src="images/previous-page.png" alt="" srcset="" height="25" width="25">
+        <img src="images/previous-page-10-16.png" alt="" srcset="" height="25" width="25">
+        <img src="images/reload.png" alt="" srcset="" height="25" width="25">
+        
+        
+        <div class="header-searchbar" id='container' onclick="changeContainerBorder()">
+            
+            <div class="leftdiv">
+            <img src="images/google.png" alt="" srcset=""height="25" width="25" >
+            <input type="text" onclick="changeBorder()" class="searchbox" id="">
+        </div>
+            
+            <div class="rightdiv">
+            <img src="images/zoom-in.png" alt="" srcset="" height="25" width="25">
+            <img src="images/favorites.png" alt="" srcset="" height="25" width="25">
+        </div>
+        </div>
+        <div class="borderimage">
+            <img src="images/extension-icon.png" srcset="" height="25" width="25">
+        </div>
+       <div class="right-most"> 
+        <img src="images/download.png" alt="" srcset="" height="25" width="25">
+        <img src="images/sidebar.png" alt="" srcset="" height="25" width="25">
+        <img src="images/menu.png" alt="" srcset="" height="25" width="25">
+    <a href="#"><div class="circle">F</div></a>
+    </div>
+    <script>
+   function changeContainerBorder(){
+   var containerDiv = document.getElementById('container');
+  
+  // Change the border style and color
+  containerDiv.style.border = '4px solid #2e49ab';
+    }
+
+      </script>
+
+    </header>
+     <div class="container">
+    <ul>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href=""><img src="images/Capture.PNG" alt="" height='25' width='30' srcset=""></a></li>
+      <li><a href=""><img src="images/googleapps.png" alt="" height='25' width='25' srcset=""></a></li> 
+
+    </ul>
+    <a href="#"><div class="circle">F</div></a>
+  </div>
+
+  <div class="content">
+
+    <div class="centered">
+        <h1 style="font-size: 70px;" ><span style="color: rgb(11, 107, 139);">G</span><span style="color: rgb(253, 72, 72);">o</span><span style="color:rgb(247, 214, 26)">o</span><span style="color:rgb(11, 107, 139)">g</span><span style="color:rgb(2, 107, 2)">l</span><span style="color:rgb(166, 4, 4)">e</span></h1>
+           <div class="textbox-wrapper">
+            <img src="images/search-icon.png" width="10" height="10" alt="" srcset="">
+            <input type="text" placeholder="Search google or type a URL">
+    </div>
+      </div>
+  </div>
+</body>
+</html>

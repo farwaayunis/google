@@ -1,0 +1,141 @@
+header{
+    border-bottom: 1px solid lightgrey;
+    display:flex;
+    justify-content: space-evenly; /* Align elements with space in-between */
+    align-items: center; /* Vertically center align items */
+}
+.right-most{display: flex;
+justify-content: space-evenly;}
+
+.header-searchbar{
+    border-radius: 20px;
+   width: 1000px;
+    margin: auto;
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    padding: 5px auto;
+    margin-bottom:10px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    padding-right: -20px;
+    border:1px solid lightgray;
+    
+    
+    
+}
+.header-searchbar:hover{
+    background-color: rgb(235, 233, 233); 
+
+    
+
+}
+.header-searchbar::click{
+border: 4px solid darkblue;
+background-color:rgb(255, 255, 255);}
+
+
+.searchbox{
+    border: none;
+    outline: none;
+    background-color:transparent;  
+    border-style: none;
+    width: 850px;
+    margin-right:50px;
+    
+   
+}
+.searchbox::click{
+  border-style: none;
+
+}
+.leftdiv{float:left;}
+.rightdiv{float: right;}
+.border-image{
+    border: none;
+    padding: 5px 10px 10px 10px;
+    border-right:1px solid lightgray;
+}
+/*small containerbelow header containing some elements
+*/
+.container {
+    float: right;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+  }
+  .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .container ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  .container ul li:last-child {
+    margin-right: 0;
+  }
+  .container > ul > li >a{
+    text-decoration: none;
+    color:rgb(178, 177, 177);
+  }
+  .container > ul > li >a:hover{
+    text-decoration: underline;
+  }
+  .circle{
+    width: 30px;
+    height:30px;
+    background-color: darkblue;
+    color: white;
+    padding:auto;
+    border-radius: 20px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  
+  }
+
+
+  /*Google */
+  .content{
+    position: relative; /* Make it a reference point for absolute positioning */
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;
+    /* Vertical center */
+    height: 100vh; /* Full viewport height */
+  }
+  .centered{
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Align children vertically */
+
+  }
+  
+  .textbox-wrapper{
+border:none;
+    border-radius: 20px;
+    width:180%;
+    height:30px;
+    box-shadow:0 0 10px 5px  lightgrey; 
+    padding-top: 4px;   
+   
+  }
+  .textbox-wrapper >input[type='text']{
+background:transparent;
+border: none;
+outline: none;
+margin-left:5px;
+
+  }
+  .textbox-wrapper >img{
+    padding-left: 4px;
+  }
+ 
+  #mainsearchbox >input[type='text']::click{
+    border:none;
+    outline:none;
+  }
